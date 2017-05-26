@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>历史记录</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/history.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css">
+	</head>
+	<body>
+		
+		
+		<div class="header">
+			<ul class="header-list">
+				<li class="list-btn "></li>
+				<li class="list-con">历史记录</li>
+				<li class="list-btn"></li>
+			</ul>
+		</div>
+		
+		
+		<div class="content">
+			<ul class="goods-list">
+				<li class="goods-item">
+					<div>
+						<img src="https:////img.alicdn.com/bao/uploaded///img.alicdn.com/bao/uploaded/i4/TB1vGO5IFXXXXb4XXXXXXXXXXXX_!!0-item_pic.jpg_160x160q90.jpg"/>
+						<p>韩都衣舍韩版2015秋装新款女装翻领绣花图案长袖衬衫</p>
+						<p class="price">￥260.00 <span>999</span></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+		<!--   -->
+		<div class="footer">
+			<ul>
+				<li>
+					<div class="iconfont">&#xe604;</div>
+					<p>首页</p>
+				</li>
+				<li>
+					<a href="list.html"><div class="iconfont">&#xe602;</div></a>
+					<p>分类</p>
+				</li>
+				<li >
+					<a href="cart.html"><div class="iconfont">&#xe601;</div></a>
+					<p>购物车</p>
+				</li>
+				<li  >
+					<a href="user.html"><div class="iconfont">&#xe690;</div></a>
+					<p>我的秀</p>
+				</li>
+				<li class="active">
+					<a href="draw.html"><div class="iconfont">&#xe600;</div></a>
+					<p>抽奖</p>
+				</li>
+			</ul>
+		</div>
+			<script src="js/lib/jquery.1.11.3.min.js"></script>
+			<script type="text/javascript">
+					var data = JSON.parse(localStorage.getItem("proHistory"));
+					var str ="";
+					for(var i = 0; i < data.length;i++){
+						
+						str +=`<li class="goods-item">
+									<div>
+										<a href="javascript:;" data-id="${data[i].goodsID}"><img src="${data[i].goodsListImg}"/></a>
+										<p>${data[i].goodsName}</p>
+										<p class="price">￥${data[i].price} <span>999</span></p>
+									</div>
+								</li>`
+						
+					}
+					$(".goods-list").html(str);	
+					$(document).on("click","a",function(){
+						window.location.href = "detail.html?goodsID="+$(this).attr("data-id");
+					})
+					
+				
+			</script>
+	</body>
+</html>

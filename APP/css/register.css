@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* 注册页  */
+body {
+  background: #f3eff0;
+}
+
+.header {
+  height: 44px;
+  background: #a90506;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+}
+
+.header .header-list {
+  display: flex;
+  width: 100%;
+  line-height: 44px;
+  text-align: center;
+}
+
+.header .header-list .list-btn {
+  width: 50px;
+  font-size: 20px;
+}
+
+.header .header-list .list-con {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content {
+  padding: 60px 15px 0 15px;
+  overflow: hidden;
+  height: auto;
+  background: #f3eff0;
+}
+
+.content .con {
+  width: 100%;
+  overflow: hidden;
+}
+
+.content .con .item-text {
+  overflow: hidden;
+}
+
+.content .con .item {
+  display: flex;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  padding-bottom: 24px;
+  font-size: 14px;
+  position: relative;
+}
+
+.content .con .item span {
+  display: inline-block;
+  width: 0.75rem;
+  text-align: right;
+  float: left;
+  background: #fff;
+}
+
+.content .con .item .text {
+  width: 2.15rem;
+  height: 43px;
+  background: #fff;
+  float: left;
+}
+
+.content .con .item .item-con {
+  width: 2rem;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 30px;
+  color: #E7201A;
+  position: absolute;
+  top: 43px;
+  left: 0;
+}
+
+.content .con .reg-d {
+  width: 100%;
+  height: 45px;
+  padding-top: 80px;
+}
+
+.content .con .reg-d .btn {
+  width: 100%;
+  height: 45px;
+  background: #a90506;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #820000;
+  border-radius: 4px;
+  box-shadow: 4px 4px 2px #a10b62;
+}

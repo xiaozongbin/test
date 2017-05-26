@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* 注册页  */
+body {
+  background: #f3eff0;
+}
+
+.header {
+  height: 44px;
+  background: #a90506;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+}
+
+.header .header-list {
+  display: flex;
+  width: 100%;
+  line-height: 44px;
+  text-align: center;
+}
+
+.header .header-list .list-btn {
+  width: 50px;
+}
+
+.header .header-list .list-con {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content {
+  padding: 60px 15px 0 15px;
+  overflow: hidden;
+  height: auto;
+  background: #f3eff0;
+}
+
+.content .con {
+  overflow: hidden;
+  width: 100%;
+}
+
+.content .con .item {
+  height: 43px;
+  width: 100%;
+  padding-bottom: 3px;
+  border-radius: 5px;
+}
+
+.content .con .item .text {
+  width: 100%;
+  height: 43px;
+  background: #fff;
+  padding-left: 10px;
+  line-height: 43px;
+  font-size: 14px;
+}
+
+.content .con .psw-t {
+  width: 100%;
+  height: 20px;
+  padding-top: 25px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.content .con .psw-t li {
+  float: left;
+  font-size: 14px;
+}
+
+.content .con .psw-t li:nth-child(1) {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #676767;
+}
+
+.content .con .psw-t li:nth-child(1) .iconfont {
+  display: none;
+  text-align: center;
+  line-height: 20px;
+  font-size: 22px;
+  color: #4FBD4F;
+  font-weight: 600;
+}
+
+.content .con .psw-t li:nth-child(2) {
+  padding-left: 10px;
+  color: #5c5c5c;
+}
+
+.content .con .psw-t li:nth-child(3) {
+  padding-left: 20px;
+  color: #ff0e52;
+}
+
+.content .con .psw-b {
+  width: 100%;
+  height: 20px;
+  padding-top: 25px;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+.content .con .psw-b li {
+  float: left;
+  font-size: 14px;
+}
+
+.content .con .psw-b li:nth-child(1) {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #676767;
+}
+
+.content .con .psw-b li:nth-child(1) .iconfont {
+  text-align: center;
+  line-height: 20px;
+  font-size: 22px;
+  color: #4FBD4F;
+  font-weight: 600;
+}
+
+.content .con .psw-b li:nth-child(2) {
+  padding-left: 10px;
+  color: #5c5c5c;
+}
+
+.content .con .reg-d {
+  width: 100%;
+  height: 45px;
+  padding-bottom: 10px;
+}
+
+.content .con .reg-d .btn {
+  width: 100%;
+  height: 45px;
+  background: #a90506;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #820000;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #a10b62;
+}
+
+.content .con .reg-d .btn-reg {
+  background: #4c4c4c;
+}

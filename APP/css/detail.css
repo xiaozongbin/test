@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*----------------------头部导航-------------------------------*/
+.head {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 44px;
+  line-height: 44px;
+  border-top: 1px solid #c92b2a;
+  border-bottom: 1px solid #9a9fa5;
+  font-size: 18px;
+  background: #b11f1f;
+  justify-content: space-between;
+  color: white;
+  text-align: center; }
+  .head div:nth-child(1) {
+    width: 37px; }
+  .head div:nth-child(3) {
+    width: 60px; }
+    .head div:nth-child(3) button {
+      width: 50px;
+      height: 25px;
+      border: 1px solid #a02c2c;
+      background: url(../imgs/line.png) repeat-x;
+      color: white;
+      outline: 0;
+      border-radius: 5px; }
+
+/*----------------------内容-------------------------------*/
+.content {
+  padding: 46px 0 50px;
+  overflow: hidden;
+  height: auto;
+  text-align: center; }
+  .content .swiper-container {
+    height: 200px;
+    width: 180vw;
+    margin-left: -40vw; }
+  .content .swiper-container img {
+    width: 100%;
+    height: 200px; }
+  .content .content {
+    width: 100%;
+    overflow: hidden; }
+  .content .pagination-wrap {
+    padding: 10px 0;
+    font-size: 0;
+    text-align: center; }
+  .content .my-pagination {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #999; }
+  .content .swiper-pagination-bullet {
+    background-color: #fff;
+    margin: 0 10px; }
+  .content .ctr {
+    background: #f3eff0;
+    padding-top: 8px; }
+    .content .ctr .circle {
+      margin: 0 auto;
+      width: 48px;
+      height: 20px;
+      background: #bcbcbc;
+      border-radius: 10px; }
+      .content .ctr .circle span {
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        border-radius: 50%;
+        background: #969696;
+        margin: 0 1px; }
+      .content .ctr .circle .current {
+        background: white; }
+  .content .goods-detail {
+    background: #f3eff0;
+    text-align: left;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0 12px; }
+    .content .goods-detail .price {
+      color: #ba0852; }
+  .content .look {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between; }
+    .content .look span:nth-child(1) {
+      display: block;
+      width: 40px;
+      position: relative; }
+      .content .look span:nth-child(1) i {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        margin: -9px 0 0 -9px;
+        width: 18px;
+        height: 18px;
+        display: block;
+        font-size: 10px;
+        line-height: 18px;
+        text-align: center;
+        border-radius: 50%;
+        background: #b52121; }
+    .content .look span:nth-child(2) {
+      text-align: left;
+      flex: 1; }
+    .content .look span:nth-child(3) {
+      display: block;
+      width: 40px;
+      text-align: center; }
+
+/*----------------------尾部-------------------------------*/
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 45px;
+  background: #a3a3a3;
+  padding-top: 3px; }
+  .footer .add-cart {
+    border-radius: 5px;
+    width: 220px;
+    height: 40px;
+    background: #b82221;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    outline: 0; }

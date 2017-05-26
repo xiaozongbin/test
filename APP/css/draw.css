@@ -1,0 +1,110 @@
+.head {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 44px;
+  line-height: 44px;
+  border-top: 1px solid #c92b2a;
+  border-bottom: 1px solid #9a9fa5;
+  font-size: 18px;
+  background: #b11f1f;
+  justify-content: space-between;
+  color: white;
+  text-align: center; }
+  .head div:nth-child(1) {
+    width: 37px; }
+  .head div:nth-child(3) {
+    width: 100px;
+    align-self: center; }
+    .head div:nth-child(3) button {
+      width: 75px;
+      height: 25px;
+      border: 1px solid #a02c2c;
+      background: url(../imgs/line.png) repeat-x;
+      color: white;
+      outline: 0;
+      border-radius: 5px; }
+
+.content {
+  padding-top: 45px;
+  margin: 8px auto;
+  width: 3.06rem;
+  height: 2.91rem;
+  overflow: hidden; }
+  .content .prize-wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0; }
+    .content .prize-wrap li {
+      position: absolute;
+      width: 1.02rem;
+      height: 0.97rem;
+      color: #fff;
+      line-height: 0.95rem;
+      text-align: center;
+      font-size: 30px;
+      background: #640000; }
+      .content .prize-wrap li img {
+        width: 1rem;
+        height: 0.95rem;
+        border: 0.01rem solid #fff; }
+      .content .prize-wrap li .draw {
+        width: 1rem;
+        height: 0.95rem;
+        border: 0.01rem solid #fff; }
+    .content .prize-wrap li:nth-child(1) {
+      left: 0;
+      top: 0; }
+    .content .prize-wrap li:nth-child(2) {
+      left: 1.02rem;
+      top: 0; }
+    .content .prize-wrap li:nth-child(3) {
+      right: 0;
+      top: 0; }
+    .content .prize-wrap li:nth-child(4) {
+      right: 0;
+      top: 0.97rem; }
+    .content .prize-wrap li:nth-child(5) {
+      left: 1.02rem;
+      top: 0.97rem; }
+    .content .prize-wrap li:nth-child(6) {
+      right: 0;
+      bottom: 0; }
+    .content .prize-wrap li:nth-child(7) {
+      left: 1.02rem;
+      bottom: 0; }
+    .content .prize-wrap li:nth-child(8) {
+      left: 0;
+      bottom: 0; }
+    .content .prize-wrap li:nth-child(9) {
+      left: 0;
+      top: 0.97rem; }
+
+.footer ul {
+  width: 3.06rem;
+  height: 2.3rem;
+  background: #ff4948;
+  border: 1px solid #640000;
+  margin: 0 auto;
+  overflow: auto; }
+  .footer ul li {
+  	white-space: nowrap;
+    line-height: 30px;
+    height: 30px;
+    font-size: 20px;
+    width: 100%; }
+    .footer ul li span {
+      margin-left: 32px;
+      display: inline-block; }
+    .footer ul li span:nth-child(2) {
+    	vertical-align: bottom;
+      white-space: nowrap;
+      width: 50px;
+      overflow: hidden;
+      display: inline-block;
+      text-overflow: ellipsis; }

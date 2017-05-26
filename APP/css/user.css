@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* 注册页  */
+body {
+  background: #f3eff0;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 44px;
+  line-height: 44px;
+  border-top: 1px solid #c92b2a;
+  font-size: 18px;
+  background: #b11f1f;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid #282828;
+}
+
+.head div:nth-child(1) {
+  width: 60px;
+}
+
+.head div:nth-child(3) {
+  width: 60px;
+}
+
+.head div:nth-child(3) button {
+  width: 50px;
+  height: 25px;
+  border: 1px solid #a02c2c;
+  background: url(../imgs/line.png) repeat-x;
+  color: white;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 73px 15px 0 15px;
+  overflow: hidden;
+}
+
+.content .con-user {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.content .con-user .user {
+  width: 80px;
+  height: 80px;
+  font-size: 76px;
+  color: #a4a4a4;
+  background: #1e1e1e;
+  text-align: center;
+  line-height: 92px;
+  border-radius: 10px;
+  float: left;
+}
+
+.content .con-user p {
+  position: absolute;
+  font-size: 16px;
+}
+
+.content .con-user .name {
+  top: 15px;
+  left: 95px;
+}
+
+.content .con-user .mon {
+  top: 45px;
+  left: 95px;
+}
+
+.content .con-user .mon span {
+  color: #E7201A;
+}
+
+.content .con-list {
+  padding-top: 120px;
+  width: 100%;
+  height: 180px;
+}
+
+.content .con-list .list {
+  width: 100%;
+  height: 178px;
+  border: 1px solid #dedede;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.content .con-list .list .item {
+  height: 44px;
+  border-bottom: 1px solid #dedede;
+  line-height: 44px;
+  padding-left: 10px;
+}
+
+.content .con-list .list .item span {
+  float: left;
+}
+
+.content .con-list .list .item p {
+  padding-right: 10px;
+  float: right;
+  font-size: 18px;
+  color: #CCCCCC;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #484850;
+}
+
+.footer ul {
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li {
+  float: left;
+  height: 49px;
+  width: 20%;
+  text-align: center;
+  border-top: 1px solid #282828;
+}
+
+.footer ul li div {
+  font-size: 24px;
+  color: #fff;
+  padding-top: 2px;
+}
+
+.footer ul li p {
+  color: #fff;
+}
+
+.footer ul .active {
+  border-top: 2px solid #E31939;
+}
